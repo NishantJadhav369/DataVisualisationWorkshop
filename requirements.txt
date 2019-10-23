@@ -1,0 +1,52 @@
+PACKAGES AND VERSIONS NEEDED
+
+(LATEST)
+- Python 3.7.3
+- Anaconda3 4.2.0
+- pip 19.1.1
+
+Packages:
+
+To check versions:
+ 1)  Open cmd / terminal
+     import module_name
+     module_name.__version__
+
+	OR
+
+ 2)  pip list
+     Check desired module and version
+
+Install libraries (stable versions or minimum version)
+
+		pip install package_name
+		pip install package_name == version_no.
+		(package_name => small_case)
+
+- Numpy 1.16.4
+- Pandas 0.24.2
+- matplotlib 3.1.0
+- Seaborn 0.9.0
+- cufflinks 0.16
+- Plotly 3.10.0 (Strictly less than 4.0)
+ orelse install cufflinks first appropriate version of plotly will be installed
+
+For Volcano project: ( We need different version of Plotly)
+
+- virtualenv 16.7.5 (pip install virtualenv)
+
+1) Create new Project Folder
+2) Navigate to that Project folder (in terminal)
+
+virtualenv proj_name
+- a folder will be created 
+- navigate to that folder/scripts
+
+3) activate
+4) cd ..
+5) Install plotly 4.1.0(strictly greater than 4.0)
+   numpy pandas 
+	if version is < then 4.0 then
+	pip install --upgrade plotly  
+
+6) Now launch your jupyter notebook application
